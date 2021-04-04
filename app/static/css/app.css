@@ -5,3 +5,12 @@ body {
 footer  {
     padding-top: 20px;
 }
+.card-lay{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50%, 50%;
+    grid-gap: 5px;
+}
+.news__list h2{
+    text-align: center;
+}
